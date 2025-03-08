@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 from streamlit_option_menu import option_menu
-
+from pages import Profile,Review,Feedback,Exercise,FoodPlan,Dashboard
 # Configure page layout
 st.set_page_config(page_title="Automatic Diet Recommendation", layout="wide")
 
@@ -150,8 +150,7 @@ else:
 
     # ✅ Display selected page content dynamically
     if selected == "Profile":
-        with open("pages/Profile.py", "r", encoding="utf-8") as f:
-            exec(f.read())
+        Profile.show()
 
         # Logout button
         if st.button("Logout"):
@@ -160,21 +159,16 @@ else:
             st.rerun()
 
     elif selected == "Dashboard":
-        with open("pages/Dashboard.py", "r", encoding="utf-8") as f:
-            exec(f.read())
+        Dashboard.show()
 
     elif selected == "Review":
-        with open("pages/Review.py", "r", encoding="utf-8") as f:
-            exec(f.read())
+        Review.show()
 
     elif selected == "Food Plan":
-        with open("pages/FoodPlan.py", "r", encoding="utf-8") as f:
-            exec(f.read())
+        FoodPlan.show()
             
     elif selected == "Exercise":
-        with open("pages/Exercise.py", "r", encoding="utf-8") as f:
-            exec(f.read())
+        Exercise.show()
             
     elif selected == "Feedback":
-        with open("pages/Feedback.py", "r", encoding="utf-8") as f:
-            exec(f.read())
+        Feedback.show()
