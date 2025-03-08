@@ -1,0 +1,50 @@
+{
+    "Gowtham": {
+        "age": 21,
+        "height": 170,
+        "weight": 56,
+        "gender": "Male",
+        "bmi": 19.38,
+        "activity": "Light exercise",
+        "medical_history": {
+            "Diabetes": false,
+            "Hypertension": true,
+            "Heart Disease": false,
+            "Asthma": false,
+            "Kidney Disease": false,
+            "Liver Disease": false,
+            "Thyroid Disorder": false,
+            "High Cholesterol": false,
+            "Obesity": false,
+            "Anemia": false
+        },
+        "lifestyle": {
+            "sleep": 5,
+            "stress": "Moderate",
+            "smoking": false,
+            "alcohol": false,
+            "hydration": true,
+            "junk_food": false,
+            "meal_skipping": false,
+            "exercise": "Light"
+        },
+        "current_symptoms": [
+            "Shortness of breath",
+            "Indigestion"
+        ],
+        "recent_lab_tests": [
+            "Hemoglobin (Hb) Test"
+        ],
+        "lab_results": {
+            "Hemoglobin (Hb) Test": "9"
+        },
+        "food_allergies": [
+            "Soy",
+            "Seafood",
+            "Gluten"
+        ],
+        "dietary_preferences": "Vegan",
+        "doctor_recommendations": "Increase Physical Activity",
+        "appointment_date": "2025-03-27"
+    }
+}
