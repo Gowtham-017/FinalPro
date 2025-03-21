@@ -1,0 +1,208 @@
+{
+  "cardio": [
+    {
+      "title": "Meditation",
+      "img": "https://images.pexels.com/photos/2597205/pexels-photo-2597205.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "intensity": "moderate",
+      "tags": ["relaxation", "mindfulness", "low impact"]
+    },
+    {
+      "title": "Jump rope",
+      "img": "https://images.pexels.com/photos/6339609/pexels-photo-6339609.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "intensity": "hard",
+      "tags": ["cardio", "coordination", "high impact", "no knee pain"]
+    },
+    {
+      "title": "High Knees",
+      "img": "https://images.pexels.com/photos/8084766/pexels-photo-8084766.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "intensity": "light",
+      "tags": ["cardio", "leg mobility", "joint-friendly", "no shoulder pain"]
+    },
+    {
+      "title": "Plank",
+      "img": "https://images.pexels.com/photos/4944959/pexels-photo-4944959.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "intensity": "moderate",
+      "tags": ["core strength", "stability", "joint-friendly"]
+    },
+    {
+      "title": "Burpee",
+      "img": "https://images.pexels.com/photos/6455813/pexels-photo-6455813.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "intensity": "hard",
+      "tags": ["cardio", "full-body", "high impact", "no knee pain"]
+    },
+    {
+      "title": "Squat Jumps",
+      "img": "https://images.pexels.com/photos/6389882/pexels-photo-6389882.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "intensity": "moderate",
+      "tags": ["cardio", "legs", "explosive movement", "no knee pain"]
+    }
+  ],
+  "general": [
+    {
+      "title": "Push Up",
+      "img": "https://media.istockphoto.com/id/1367329777/photo/strong-caucasian-man-looks-down-while-does-push-ups-with-one-hand-in-a-dark-gym.jpg?s=612x612&w=0&k=20&c=YV9SyTP0aRsYp4AcvSIJ_Cb6zxBJ6Si2eweJWFnOfmw=",
+      "text": "Strengthens chest, shoulders, and triceps.",
+      "intensity": "moderate",
+      "tags": ["strength", "upper body", "no back pain"]
+    },
+    {
+      "title": "Squat",
+      "img": "https://images.pexels.com/photos/4164464/pexels-photo-4164464.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "text": "Improves lower body strength and flexibility.",
+      "intensity": "moderate",
+      "tags": ["strength", "legs", "joint-friendly", "no knee pain"]
+    },
+    {
+      "title": "Lunges",
+      "img": "https://images.pexels.com/photos/4803713/pexels-photo-4803713.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "text": "Strengthens hamstrings and glutes.",
+      "intensity": "moderate",
+      "tags": ["strength", "legs", "balance", "joint-friendly"]
+    },
+    {
+      "title": "Crunches",
+      "img": "https://images.pexels.com/photos/8038636/pexels-photo-8038636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "text": "Engages abdominal muscles.",
+      "intensity": "light",
+      "tags": ["core", "abs", "no back pain"]
+    },
+    {
+      "title": "Supermans",
+      "img": "https://media.istockphoto.com/id/1367329777/photo/strong-caucasian-man-looks-down-while-does-push-ups-with-one-hand-in-a-dark-gym.jpg?s=612x612&w=0&k=20&c=YV9SyTP0aRsYp4AcvSIJ_Cb6zxBJ6Si2eweJWFnOfmw=",
+      "text": "Strengthens lower back and core.",
+      "intensity": "light",
+      "tags": ["back strength", "core", "no back pain"]
+    },
+    {
+      "title": "Forward Fold",
+      "img": "https://media.istockphoto.com/id/175594032/photo/yoga-uttanasana.jpg?s=612x612&w=0&k=20&c=tTlBfyUdd6T2wGHSZcYAeSgm6i8ToJeWN4ZxzBqw4rU=",
+      "text": "Improves flexibility in hamstrings and calves.",
+      "intensity": "light",
+      "tags": ["flexibility", "stretch", "hamstrings"]
+    }
+  ],
+  "bmi_based": {
+    "underweight": [
+      {
+        "title": "Deadlifts",
+        "img": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
+        "text": "Boosts muscle mass and strength.",
+        "intensity": "hard",
+        "tags": ["strength", "back", "legs", "muscle gain"]
+      },
+      {
+        "title": "Bench Press",
+        "img": "https://images.pexels.com/photos/3757957/pexels-photo-3757957.jpeg",
+        "text": "Builds chest and upper body strength.",
+        "intensity": "hard",
+        "tags": ["strength", "upper body", "muscle gain"]
+      }
+    ],
+    "normal": [
+      {
+        "title": "Cycling",
+        "img": "https://images.pexels.com/photos/669581/pexels-photo-669581.jpeg",
+        "text": "Enhances cardiovascular endurance.",
+        "intensity": "moderate",
+        "tags": ["cardio", "legs", "joint-friendly"]
+      },
+      {
+        "title": "Jump Rope",
+        "img": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
+        "text": "Improves coordination and heart health.",
+        "intensity": "moderate",
+        "tags": ["cardio", "high impact", "no knee pain"]
+      }
+    ],
+    "overweight": [
+      {
+        "title": "Brisk Walking",
+        "img": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg",
+        "text": "Promotes weight loss with low impact.",
+        "intensity": "light",
+        "tags": ["cardio", "joint-friendly", "no knee pain"]
+      },
+      {
+        "title": "Swimming",
+        "img": "https://images.pexels.com/photos/3757957/pexels-photo-3757957.jpeg",
+        "text": "A joint-friendly full-body workout.",
+        "intensity": "moderate",
+        "tags": ["cardio", "full-body", "low impact"]
+      }
+    ],
+    "obese": [
+      {
+        "title": "Low-Impact Aerobics",
+        "img": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
+        "text": "Supports weight loss and mobility.",
+        "intensity": "light",
+        "tags": ["cardio", "low impact", "no back pain"]
+      },
+      {
+        "title": "Yoga",
+        "img": "https://images.pexels.com/photos/669581/pexels-photo-669581.jpeg",
+        "text": "Improves flexibility and reduces stress.",
+        "intensity": "light",
+        "tags": ["stretch", "joint-friendly", "no knee pain"]
+      }
+    ]
+  },
+  "personalized": {
+    "pain": [
+      {
+        "title": "Wall Sit",
+        "img": "https://images.pexels.com/photos/6740055/pexels-photo-6740055.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "intensity": "light",
+        "tags": ["legs", "joint-friendly", "no knee pain", "low impact"]
+      },
+      {
+        "title": "Chair Yoga",
+        "img": "https://images.pexels.com/photos/4056535/pexels-photo-4056535.jpeg",
+        "intensity": "light",
+        "tags": ["flexibility", "rehabilitation", "no back pain", "low impact"]
+      }
+    ],
+    "low_energy": [
+      {
+        "title": "Breathing Exercises",
+        "img": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
+        "intensity": "light",
+        "tags": ["relaxation", "low energy", "beginner-friendly"]
+      },
+      {
+        "title": "Tai Chi",
+        "img": "https://img.freepik.com/free-photo/person-practicing-tai-chi-indoors_23-2150218276.jpg?ga=GA1.1.1916035795.1742490770&semt=ais_hybrid",
+        "intensity": "light",
+        "tags": ["balance", "low energy", "joint-friendly"]
+      }
+    ],
+    "severe_fatigue": [
+      {
+        "title": "Guided Meditation",
+        "img": "https://images.pexels.com/photos/2597205/pexels-photo-2597205.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "intensity": "light",
+        "tags": ["relaxation", "severe fatigue", "recovery"]
+      },
+      {
+        "title": "Gentle Yoga",
+        "img": "https://images.pexels.com/photos/4056724/pexels-photo-4056724.jpeg",
+        "intensity": "light",
+        "tags": ["flexibility", "recovery", "severe fatigue"]
+      }
+    ],
+    "motivation_low": [
+      {
+        "title": "5-Minute Stretch",
+        "img": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg",
+        "intensity": "light",
+        "tags": ["quick", "easy", "low motivation"]
+      },
+      {
+        "title": "Fun Dance Workout",
+        "img": "https://images.pexels.com/photos/4324036/pexels-photo-4324036.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "intensity": "moderate",
+        "tags": ["fun", "motivation boost"]
+      }
+    ]
+  }
+}
